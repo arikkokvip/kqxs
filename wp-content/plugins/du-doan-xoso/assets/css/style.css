@@ -1,0 +1,600 @@
+.kira-plugin {
+    border: 3px solid #4782ff;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.kira-content {
+    padding: 10px 20px;
+
+}
+
+.kira-banner img {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.kira-form input.kira-inp {
+    border: 1px solid #4782ff;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+
+.kira-form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.kira-form {
+    margin-bottom: 0;
+}
+
+.kira-form-group label {
+    flex: 0 0 30%;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.kira-form-group input.kira-inp {
+    flex: 1;
+    height: 45px;
+    padding: 5px 10px;
+    color: #333;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0 !important;
+
+}
+
+.kira-btn {
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.kira-btn {
+    background: #4782ff !important;
+    border: none;
+    z-index: 1;
+    width: 50%;
+    border-radius: 25px;
+    padding: 15px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kira-btn:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #ff3d3d;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 56, 56, 0.5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition: all 0.3s ease;
+}
+
+.kira-btn:hover {
+    color: #fff;
+}
+
+.kira-btn:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.kira-btn:active {
+    top: 2px;
+}
+
+.kira-smt {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.kira-content ul {
+    list-style: none;
+    margin-left: 0 !important;
+}
+
+.kira-rule {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.kira-rule blockquote {
+    padding-left: 20px;
+
+}
+
+.kira-rule blockquote::before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.btn-3 {
+    padding: 10px 15px;
+    color: #fff;
+    background: linear-gradient(135deg, #ff512f 0%, #dd2476 100%);
+    animation: gradient 3s infinite alternate;
+}
+
+.btn-3::before {
+    background: linear-gradient(135deg, #ff512f 0%, #dd2476 100%);
+    clip-path: polygon(0 0, 100% 0, 50% 50%);
+}
+
+.btn-3::after {
+    background: linear-gradient(135deg, #dd2476 0%, #ff512f 100%);
+    clip-path: polygon(50% 50%, 100% 100%, 0 100%);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.btn-2 {
+    padding: 10px 15px;
+    color: #fff;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    animation: gradient 3s infinite alternate;
+}
+
+.btn-2::before {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    clip-path: polygon(0 0, 100% 0, 50% 50%);
+}
+
+.btn-2::after {
+    background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+    clip-path: polygon(50% 50%, 100% 100%, 0 100%);
+}
+
+.btn-4 {
+    padding: 10px 15px;
+    color: #fff;
+    background: linear-gradient(135deg, #cb9911 0%, #ffd86d 100%);
+    animation: gradient 3s infinite alternate;
+}
+
+.btn-4::before {
+    background: linear-gradient(135deg, #cb6811 0%, #fcbf25 100%);
+    clip-path: polygon(0 0, 100% 0, 50% 50%);
+}
+
+.btn-4::after {
+    background: linear-gradient(135deg, #fcc325 0%, #cb7111 100%);
+    clip-path: polygon(50% 50%, 100% 100%, 0 100%);
+}
+
+.kira-btn-area {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.kira-btn-area button {
+    margin-right: 10px;
+
+}
+
+.kira-btn-area button:last-child {
+    margin-right: 0 !important;
+}
+
+.kira-rule blockquote {
+    position: relative;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+    color: #333;
+}
+
+.kira-loading {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.kira-loading img {
+    max-width: 125px;
+}
+
+.kira-success {
+    background-color: rgb(0, 160, 16);
+    color: #fff;
+    padding: 3px 10px;
+
+}
+
+.kira-fail {
+    background-color: #d33;
+    color: #fff;
+    padding: 3px 10px;
+
+}
+
+#scrolling-list {
+    border: 1px solid #042b7f;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* Chiều cao vùng cuộn */
+    /* Ẩn thanh cuộn */
+}
+
+.kira-content a {
+    font-weight: 600;
+    color: blue;
+}
+
+#scrolling-list li:last-child {}
+
+#scrolling-list li {
+    padding: 10px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#scrolling-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 35px;
+}
+
+.counter {
+    margin-right: 10px;
+}
+
+#scrolling-list .username {
+    font-weight: 600;
+}
+
+#scrolling-list {}
+
+#scrolling-list li.counter1 {
+    background-color: #ff3d3d;
+    color: #fff;
+}
+
+#scrolling-list li.counter2 {
+    background-color: #1b9f00;
+    color: #fff;
+}
+
+#scrolling-list li.counter3 {
+    background-color: #3d5aff;
+    color: #fff;
+}
+
+#scrolling-list li {
+    background-color: #eee;
+}
+
+.top-title {
+    color: #4782ff;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    .kira-btn {
+        width: 100%;
+    }
+
+    .kira-btn-area button {
+        font-size: 13px;
+        padding: 5px;
+    }
+}
+
+.heading {
+    font-size: 12px;
+    color: #333;
+    font-style: italic;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 1px;
+    padding: 0px 25px
+}
+
+.popup-overlay,
+.popup-top-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+}
+
+.popup-close,
+.popup-stats-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.popup-overlay,
+.popup-stats-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.popup-close,
+.popup-stats-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.popup-overlay,
+.popup-top-overlay,
+.popup-stats-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    /* Đảm bảo popup nằm trên tất cả */
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    z-index: 10001;
+}
+
+.popup-close,
+.popup-top-close,
+.popup-stats-close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 10002;
+}
+
+.stat-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.stat-area p {
+    background: #f0f0f0;
+    padding: 10px;
+    font-size: 11px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.stat-area p:nth-child(5) {
+    grid-column: span 2;
+    /* Cột cuối cùng full width */
+    background: #4782ff;
+    /* Bạn có thể tùy chỉnh màu sắc */
+    color: white;
+}
+
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab li {
+    float: left;
+    align-items: center;
+    display: flex;
+}
+
+.tab a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 13px;
+
+}
+
+.tab a:hover {
+    background-color: #ddd;
+}
+
+.tab a.active {
+    background-color: #d33;
+    color: #fff;
+}
+
+.tabcontent {
+    display: none;
+    padding: 5px 0px;
+    border-top: none;
+}
+
+.tabcontent ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tabcontent ul li {
+    padding-left: 5px !important;
+
+    padding: 10px 5px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.kira-top .tab li {
+    margin-left: 0 !important;
+}
+
+.tabcontent ul li:last-child {
+    border-bottom: none;
+}
+
+.tabcontent ul,
+.tabcontent ul li {
+    margin-left: 0 !important;
+    padding-left: 0;
+}
+
+.kira-plugin p {
+    margin-bottom: 5px !important;
+}
+
+.top-first {
+    background-color: rgb(255, 17, 0);
+    color: #fff;
+}
+
+.top-second {
+    background-color: rgb(241, 153, 0);
+    color: #fff;
+}
+
+.top-third {
+    background-color: #009b53;
+    color: #fff;
+}
+
+.tabcontent ul li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+}
+
+.tabcontent ul li:last-child {
+    border-bottom: none;
+}
+
+.tabcontent ul {
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.status-true {
+    color: green;
+}
+
+.status-false {
+    color: red;
+}
+
+.record-date {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.record-results {
+    margin-left: 10px;
+}
+
+.record-results span {
+    display: block;
+}
+#stat-history, #stat-history li{
+    padding-left: 0;
+    list-style: none;
+    margin-left: 0;
+}
+#stat-history li{
+    padding: 5px 0px;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+}

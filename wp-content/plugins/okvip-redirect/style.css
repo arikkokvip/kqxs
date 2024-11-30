@@ -1,0 +1,47 @@
+.ui-dialog .ui-dialog-content {
+    padding: 20px;
+}
+
+.ui-dialog-titlebar {
+    background-color: #007cba;
+    color: #fff;
+}
+
+.ui-dialog-titlebar-close {
+    color: #fff;
+}
+
+.ui-dialog-buttonpane button {
+    background-color: #007cba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ui-dialog-buttonpane button:hover {
+    background-color: #005a8b;
+}
+
+.wrap form p {
+    margin-bottom: 15px;
+}
+
+.wrap form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.wrap form input[type="text"],
+.wrap form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.wrap form input[type="checkbox"] {
+    margin-top: 10px;
+}

@@ -1,0 +1,172 @@
+@media (max-width: 768px) {
+    .lottery-flex{
+        grid-template-columns: 1fr !important;
+    }
+}
+.table-lottery {
+    border-bottom: 1px solid #ccc;
+}
+.lottery-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 30px;
+    padding: 0px 5px;
+};
+
+
+.table-lottery td {
+    border-bottom: 1px solid #cccccc;
+    white-space: nowrap;
+}
+
+.table-lottery tr td {
+    border-left: 1px solid #cccccc;
+    color: #000000;
+    padding: 0;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center;
+}
+
+.table-lottery caption {
+    caption-side: top;
+    background-color: #333;
+}
+
+.table-lottery caption h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.table-lottery tr td:first-child {
+    font-size: 13px;
+    width: 70px;
+}
+
+.table-lottery .quantity-of-number span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.table-lottery td.results span[data-prize="1"] {
+    color: #d33;
+    font-size: 26px;
+}
+
+.table-lottery td.results .quantity-of-number {
+    display: grid
+}
+
+.table-lottery td.results .quantity-of-number[data-quantity="1"] {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.table-lottery td.results .quantity-of-number[data-quantity="2"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr)
+}
+
+.table-lottery td.results .quantity-of-number[data-quantity="6"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)
+}
+
+.table-lottery td.results .quantity-of-number[data-quantity="3"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)
+}
+
+.table-lottery td.results .quantity-of-number[data-quantity="4"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)
+}
+
+.table-lottery td.results .quantity-of-number[data-quantity="7"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)
+}
+
+.table-lottery td.results .quantity-of-number[data-quantity="8"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)
+}
+
+.table-lottery td.results .quantity-of-number[data-quantity="9"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)
+}
+
+.table-lottery td.results .quantity-of-number.specs[data-quantity="4"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2.5fr) minmax(0, 1fr) minmax(0, 2.5fr)
+}
+
+.table-result-lottery td.results .quantity-of-number[data-quantity="9"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.special-loto {
+    color: #d33;
+}
+
+.table-lottery .quantity-of-number span.loto-number {
+    font-size: 16px !important;
+}
+
+.table-lottery td.results span {
+    display: inline-block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-right: 1px solid #cccccc;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 100%;
+    white-space: normal;
+}
+
+.table-lottery td.results .quantity-of-number.specs[data-quantity="4"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2.5fr) minmax(0, 1fr) minmax(0, 2.5fr)
+}
+
+.table-loto-head-end .number.wrap-text {
+    font-size: 15px !important;
+}
+
+.table-lottery td.results span.header {
+    padding: 10px 6px;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #333;
+}
+
+.result-group>span {
+    display: block !important;
+    border: none !important;
+}
+
+.nab-select-province {
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+}
+
+.table-lottery-block table{
+    margin-bottom: 0;
+}
+.formchangenumberlenght{
+    display: flex;
+    gap: 5px;
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+.table-lottery-block{
+    margin-bottom: 1rem;
+}
+.table-lottery td.results span.number-rs:not(.header):hover{
+    background-color: rgb(255, 255, 176);
+}
+.table-lottery td.results span.result-group{
+    padding: 0;
+}
+.table-lottery h2{
+    margin-bottom: 0;
+    padding: 10px 6px;
+}

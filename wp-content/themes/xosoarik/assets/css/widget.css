@@ -1,0 +1,40 @@
+.region-widget{
+	background-color: #fff;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.region-title{
+	background-color: #d33;
+	padding: 10px 20px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+}
+.region-widget ul{
+	list-style: none;
+	padding-left: 10px;
+	margin-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.region-widget ul li{
+	margin-bottom: 5px;
+    font-size: 14px
+}
+.region-widget ul li:last-child{
+	margin-bottom: 0;
+}
+.region-widget ul li i{
+    color: #333;
+    font-size: 14px;
+}
+.region-widget ul li a{
+    color: #000;
+}
+.region-widget ul li a:hover{
+    color: #d33;
+}
+.dropdown-province ul{
+    height: 500px;
+    overflow-y: scroll;
+}
